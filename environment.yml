@@ -1,0 +1,14 @@
+name: r-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r
+  - r-tidyverse
+  - r-lubridate
+  - r-scales
+  - r-ggplot2
+  - r-cowplot
+  - r-plotly
+  - jupyter           # For Jupyter notebook support
+  - ipykernel         # To make the R kernel available in Jupyter
